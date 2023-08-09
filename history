@@ -1,0 +1,55 @@
+login as: ec2-user
+Authenticating with public key "key1"
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-17-174 ~]$ ^C
+
+[ec2-user@ip-172-31-17-174 ~]$ gedit temp
+-bash: gedit: command not found
+[ec2-user@ip-172-31-17-174 ~]$ vi temp
+[ec2-user@ip-172-31-17-174 ~]$ ls -l
+total 4
+-rw-r--r--. 1 ec2-user ec2-user 23 Aug  9 19:22 temp
+[ec2-user@ip-172-31-17-174 ~]$ chmod 700 temp
+[ec2-user@ip-172-31-17-174 ~]$ ./temp Hello
+Hello
+[ec2-user@ip-172-31-17-174 ~]$ vi temp
+[ec2-user@ip-172-31-17-174 ~]$ ./temp
+What is your name?
+Dror
+Wow Dror is my name too
+[ec2-user@ip-172-31-17-174 ~]$ vi temp
+[ec2-user@ip-172-31-17-174 ~]$ ./temp grenen blue purple
+grenen blue purple
+[ec2-user@ip-172-31-17-174 ~]$ vi temp
+[ec2-user@ip-172-31-17-174 ~]$ ./temp
+What is your favorite fruit?
+Banana
+Nice, I love Banana too
+[ec2-user@ip-172-31-17-174 ~]$ vi temp
+[ec2-user@ip-172-31-17-174 ~]$ ./temp Arbok Balbazor
+ArbokBalbazor
+[ec2-user@ip-172-31-17-174 ~]$
+[ec2-user@ip-172-31-17-174 ~]$ history
+    1  gedit temp
+    2  vi temp
+    3  ls -l
+    4  chmod 700 temp
+    5  ./temp Hello
+    6  vi temp
+    7  ./temp
+    8  vi temp
+    9  ./temp grenen blue purple
+   10  vi temp
+   11  ./temp
+   12  vi temp
+   13  ./temp Arbok Balbazor
+   14  history
