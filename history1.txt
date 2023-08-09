@@ -1,0 +1,149 @@
+    1  [200~ifconfig | head -2 | tail -1 | awk '{print $2}'
+    2  ~ifconfig | head -2 | tail -1 | awk '{print $2}'
+    3  ifconfig | head -2 | tail -1 | awk '{print $2}'
+    4  history
+    5  history 1
+    6  history 1!
+    7  history 3!
+    8  history ifconfig | head -2 | tail -1 | awk '{print $2}'
+    9  ifconfig
+   10  ifconfig | head -2 | tail -1 | awk '{print $2}'
+   11  pwd
+   12  ls =l
+   13  ls -l
+   14  mkdir -p Pokemon/{Squirtle,Caterpie}
+   15  ls
+   16  cd Pokemon/
+   17  mkdir Caterpie/{Metapod,butterfrre} Squirtle/{wartortle,Arbok}
+   18  tree .
+   19  sudo snap install tree
+   20  sudo apt  install tree
+   21  tree . 
+   22  cd /home/jonathan/Pokemon/Squirtle/Arbok/
+   23  pwd
+   24  mv Arbok Blastoise
+   25  mv ../Arbok ../Blastoise
+   26  cd ../../Caterpie/butterfrre/
+   27  pwd
+   28  touch factabtwar.txt
+   29  echo "Wartortle is a water pokemon in Pokedex" > factabtwar.txt 
+   30  cd ../..
+   31  pwd
+   32  mv Caterpie/butterfrre/factabtwar.txt Squirtle/wartortle/
+   33  tree .
+   34  ls -l
+   35  touch iPokemon
+   36  ls -l
+   37  rm -r iPokemon 
+   38  ls -l
+   39  ls -l | more -2 | tail -1
+   40  ls -l | more -3 | tail -1
+   41  ls -l | more -3 
+   42  ls -l | more -3 | tail -2
+   43  ls -l | more -3 | tail -2 | awk '{print $1}'
+   44  ls -l | more -3 | tail -2 | awk '{print $1}' | cut -b 2,3,4
+   45  ls -l | more -3 | tail -2 | awk '{print $1}' | cut -b 2,3,4 | >> iPokemon.txt
+   46  ls =l
+   47  ls
+   48  cat iPokemon.txt 
+   49  ls -l | more -3 | tail -2 | awk '{print $1}' | cut -b 2,3,4 | < iPokemon.txt
+   50  cat iPokemon.txt 
+   51  ls
+   52  rm iPokemon.txt 
+   53  ls
+   54  ls -l | more -3 | tail -2 | awk '{print $1}' | cut -b 2,3,4 | tee iPokemon
+   55  cat iPokemon 
+   56  rm -r ../Pokemon/
+   57  cd ..
+   58  ls
+   59  rm myip.txt 
+   60  mkdir scripts
+   61  cd scripts/
+   62  gedit temp
+   63  chmod 700 temp 
+   64  ./ temp 
+   65  ./temp 
+   66  history
+   67  cd scripts/
+   68  gedit temp
+   69  ./temp 
+   70  gedit temp
+   71  history
+   72  ./temp 
+   73  gedit temp
+   74  ./temp 
+   75  gedit temp
+   76  ./temp 
+   77  gedit temp
+   78  ./temp 
+   79  gedit temp
+   80  ./temp 
+   81  gedit temp
+   82  ./temp 
+   83  gedit temp
+   84  ./temp 
+   85  gedit temp
+   86  ./temp 
+   87  gedit temp
+   88  ./temp 
+   89  gedit temp
+   90  ./temp 
+   91  gedit temp
+   92  ./temp 
+   93  gedit temp
+   94  ./temp Matan Arik
+   95  sudo update
+   96  sudo apt update
+   97  git config --global user.name Jonathan-fadida
+   98  git config --global user.email fadida.y7@gmail.com
+   99  cd ..
+  100  mkdir git
+  101  cd git/
+  102  git clone
+  103  git clone https://github.com/Jonathan-fadida/bash-repo.git
+  104  cd ..
+  105  mv git my-bash
+  106  cd my-bash/
+  107  git init
+  108  mv ../Desktop/history1.txt .
+  109  ls -l
+  110  ll
+  111  chmod 444 history1.txt 
+  112  ls
+  113  ls -l
+  114  cd bash-repo/
+  115  cd ..
+  116  git init
+  117  git status
+  118  git add .
+  119  git commit -m "try1"
+  120  branch
+  121  git branch
+  122  git init
+  123  cd ..
+  124  ls
+  125  rm -r my-bash/
+  126  ls
+  127  mkdir my-bash
+  128  cd my-bash/
+  129  pwd
+  130  git init
+  131  mv ../Desktop/login\ as\ ec2-user.txt .
+  132  ls
+  133  mv login\ as\ ec2-user.txt history
+  134  chmod 444 history 
+  135  ls
+  136  ll
+  137  ls
+  138  status
+  139  gis status
+  140  git status
+  141  git add .
+  142  git commit -m "try1"
+  143  branch
+  144  git branch
+  145  git switch -c Updated-history
+  146  git branch
+  147  ls
+  148  touch history1.txt
+  149  history > history1.txt 
