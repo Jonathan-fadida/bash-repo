@@ -1,0 +1,10 @@
+#! /bin/bash
+
+echo "Enter a letter"
+read character
+
+if [ $character = "e" ] || [ $character = "a" ] || [ $character = "u" ] || [ $character = "i" ] || [ $character = "o" ]
+then
+    echo vowel!
+fi
+

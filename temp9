@@ -1,0 +1,20 @@
+
+# Prompt user for filename
+read -p "Enter the filename: " filename
+
+# Check if file exists
+if [ -f "$filename" ]; then
+    # Prompt user for confirmation
+    read -p "File $filename exists. Do you want to delete it? (y/n): " confirm
+
+    # Check user's confirmation
+    if [ "$confirm" == "y" ]; then
+        # Delete the file
+        rm "$filename"
+        echo "File $filename deleted."
+    else
+        echo "File $filename not deleted."
+    fi
+else
+    echo "File $filename does not exist."
+fi

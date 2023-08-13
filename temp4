@@ -1,0 +1,22 @@
+#! /bin/bash
+
+echo "Enter a pass"
+read pass
+
+i=0
+ echo ${#pass}
+
+
+if [[ ${#pass} -gt 7 ]] 
+    then   
+        echo "Great!"
+        i=i+1
+    else
+        echo "Try again"
+fi
+
+if [[     ]]
+
+
+
+# echo $pass | wc -c 

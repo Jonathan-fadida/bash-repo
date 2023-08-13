@@ -1,0 +1,11 @@
+
+read -p "Enter a email address: " email
+echo
+
+echo "$string" | tr a b
+
+if [[ $email == *"@"* && $email == *".com" ]]; 
+
+then
+    echo "The email is right"
+fi

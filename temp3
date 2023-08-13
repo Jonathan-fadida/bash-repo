@@ -1,0 +1,19 @@
+#! /bin/bash
+
+echo "Enter a pass"
+read pass
+
+b= echo $pass | wc -c
+echo $b
+
+
+if [[ "$b" -gt 7 ]]
+    then
+        echo "The pass is good"
+    else
+        echo "not enough"
+fi
+
+
+
+# echo $pass | wc -c 

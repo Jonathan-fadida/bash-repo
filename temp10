@@ -1,0 +1,6 @@
+
+read -p "Enter a string: " string
+echo
+
+echo "$string" | tr a b
+

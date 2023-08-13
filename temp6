@@ -1,0 +1,29 @@
+
+read -p "Enter a password: " password
+echo
+
+# Check the length of the password
+if [[ ${#password} -lt 8 ]]; then
+    echo "The password does not meet the criteria"
+    exit 1
+fi
+
+# Check if the password contains an uppercase letter
+if ! [[ $password =~ [A-Z] ]]; then
+    echo "The password does not meet the criteria"
+    exit 1
+fi
+
+# Check if the password contains a lowercase letter
+if ! [[ $password =~ [a-z] ]]; then
+    echo "The password does not meet the criteria"
+    exit 1
+fi
+
+# Check if the password contains a number
+if ! [[ $password =~ [0-9] ]]; then
+    echo "The password does not meet the criteria"
+    exit 1
+fi
+
+echo "The password meets the criteria"

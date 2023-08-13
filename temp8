@@ -1,0 +1,14 @@
+
+read -p "Enter a username: " name
+echo
+
+if [[ $name == "admin" ]] ;
+then
+    read -p "Enter a pass: " pass
+    if [[ $pass == "password123" ]]; then  
+        echo "Access granted"
+    else
+        echo "Access denied"
+    fi
+fi
+

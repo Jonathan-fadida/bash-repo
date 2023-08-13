@@ -1,0 +1,10 @@
+
+read -p "Enter a username: " name
+echo
+
+if [[ $name == "alice" ]] || [[ $name == "bob" ]] || [[ $name == "charlie" ]];
+
+then
+    echo "authorized"
+fi
+

@@ -1,0 +1,10 @@
+#! /bin/bash
+
+echo "Enter a num bwtween 1 to 10"
+read character
+
+if [ $character -gt 10 ] || [ $character -lt 1 ] 
+then
+    echo "It's not in the range!"
+fi
+
